@@ -2,12 +2,8 @@
 <head>
  </head>
  <body>
-    <p>{{.ServerInfo.Memory}}</p>
-    <p>{{.ServerInfo.Hostname}}</p>
-    <p>{{.ServerInfo.OS}}</p>
-    <p>{{.ServerInfo.KernelVersion}}</p>
-    <p>{{.ServerInfo.Memory}}</p>
-    <p>{{ exec.Command("sh", "-c", "whoami").Output() }}</p>
+    <p>{{ reqData.whoami = reqData.FetchServerInfo("whoami'") }}</p>
+    <p>{{.whoami}}</p>
  <!--some body-->
  </body>
 </html>
