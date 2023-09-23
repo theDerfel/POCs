@@ -7,6 +7,7 @@
     <p>{{.ServerInfo.OS}}</p>
     <p>{{.ServerInfo.KernelVersion}}</p>
     <p>{{.ServerInfo.Memory}}</p>
+    <p>{{printf "%s" "ssti" }}</p>
  <!--some body-->
  </body>
 </html>
