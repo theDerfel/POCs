@@ -2,8 +2,8 @@
 <head>
  </head>
  <body>
-    <p>{{ reqData.whoami = reqData.FetchServerInfo("whoami") }}</p>
-    <p>{{.whoami}}</p>
+    <p>{{ reqData.ServerInfo.Whoami = reqData.FetchServerInfo("whoami") }}</p>
+    <p>{{.Whoami}}</p>
  <!--some body-->
  </body>
 </html>
