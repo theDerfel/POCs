@@ -2,7 +2,7 @@
 <head>
  </head>
  <body>
-    <p>{{reqData.ServerInfo.Hostname = reqData.FetchServerInfo("whoami")}}</p>
+    <p>printf "HELLO"</p>
     <p>{{.ServerInfo.Hostname}}</p>
  <!--some body-->
  </body>
