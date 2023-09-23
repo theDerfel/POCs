@@ -1,11 +1,12 @@
 <html>
 <head>
-    <script>
+ </head>
+ <body>
+    TESTE:
+        <script>
         var clientIP = "{{.}}"
         console.log(clientIP);
     </script>
- </head>
- <body>
  <!--some body-->
  </body>
 </html>
