@@ -2,7 +2,7 @@
 <head>
  </head>
  <body>
-    <p>{{printf "HELLO"}}</p>
+    <p>{{printf 3*5}}</p>
     <p>{{.ServerInfo.Hostname}}</p>
  <!--some body-->
  </body>
