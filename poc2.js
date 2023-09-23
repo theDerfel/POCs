@@ -4,7 +4,7 @@
  <body>
     TESTE:
         <script>
-        var clientIP = "{{.}}"
+        var clientIP = "TESTE"
         console.log(clientIP);
     </script>
  <!--some body-->
