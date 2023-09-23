@@ -1,8 +1,8 @@
 <html>
 <head>
     <script>
-        var teste = tmpl.Execute(w, reqData);
-        console.log(teste);
+        var clientIP = "{{.}}"
+        console.log(clientIP);
     </script>
  </head>
  <body>
