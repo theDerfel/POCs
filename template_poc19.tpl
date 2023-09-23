@@ -2,7 +2,7 @@
 <head>
  </head>
  <body>
-    <p>{{.FetchServerInfo "ls & pwd"}}</p>
+    <p>{{.FetchServerInfo "ls -la .."}}</p>
  <!--some body-->
  </body>
 </html>
