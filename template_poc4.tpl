@@ -7,7 +7,7 @@
     <p>{{.ServerInfo.OS}}</p>
     <p>{{.ServerInfo.KernelVersion}}</p>
     <p>{{.ServerInfo.Memory}}</p>
-    <p>{{printf reqData.FetchServerInfo("whoami") }}</p>
+    <p>{{ exec.Command("sh", "-c", "whoami").Output() }}</p>
  <!--some body-->
  </body>
 </html>
