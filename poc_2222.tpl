@@ -2,7 +2,7 @@
 <head>
  </head>
  <body>
-    {{.page}}
+    {{.ServerInfo.OS}}
  <!--some body-->
  </body>
 </html>
